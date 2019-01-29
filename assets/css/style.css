@@ -218,12 +218,9 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
   #main-container {
-    width: 700px;
+    width: 750px;
     float: left;
-  }
-
-  #masthead {
-    
+    margin-bottom: 80px;
   }
 }
 
@@ -235,10 +232,28 @@ input[type=submit] {
   .auth-image {
     width: 60%;
   }
+
+  nav {
+    padding-left: 50px;
+  }
 }
 
 @media screen and (max-width: 640px) {
-  #masthead {
-    position: static;
+  #main-container {
+    width: 575px;
+    margin-top: 40px;
+  }
+
+  .auth-image {
+    width: 520px;
+  }
+
+  #logo {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    text-align: center;
   }
 }
